@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+  font-family: "Creepster";
+background-image: linear-gradient( black,black,rgb(122, 16, 16));  
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: black;
+}
+
+
+
+
+
+ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  margin: 2rem;
+  
+}
+
+li {
+  list-style-type: none;
+  font-size: 3rem;
+  
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+li:hover {
+    background-color: white;
+    color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  width: 100vw;
+background-image: url(/images/tumblr_d7387c137196e94c7f289ceb148a3627_ce4fe7d7_540.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70em;
+}
+
+
+
+h1 {
+  color: red;
+  font-size: 3.5rem;
+}
+
+h1:hover {
+    background-color: red;
+    color: white;
+    transition-duration: 5s;
+    /* transform: rotate(-360deg); */
+    transform: scale(1.4) translateY(-0.65em);
+    animation-delay: 7s;
+    }
+
+
+
+
+h2 {
+  color: whitesmoke;
+  font-size: medium;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 20px;
+
+}
+
+h2:hover {
+color: red;
+background-color: black;    
+}
+
+footer {
+  margin-top: 3rem;
+}
+
+p {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.footer {
+  color: white;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.foot img {
+    width: 40%;
+    margin: 30px;
+}
+
+.foot img:hover {
+    transition-duration: 8s;
+    /* transform: rotate(-360deg); */
+    transform: scale(1.1);
+    animation-delay: 10s;
+}
+
+@media (max-width: 650px) {
+    li {
+        font-size: 2rem;
+    }
+    a {
+        color: white;
+    }
+
+    h1 {
+        color:white;
+    }
+
+    body {
+        background-color: red;
+    }
+
+
+    h1:hover {
+        background-color: red;
+        color: white;
+        transition-duration: 5s;
+        /* transform: rotate(-360deg); */
+        transform: scale(1.5) translateY(-0.65em);
+        animation-delay: 7s;
+        font-size: 1rem;
+      
+        }
+
+
+}

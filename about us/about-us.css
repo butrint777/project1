@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    background-color: rgb(68, 29, 29);
+  }
+  
+  nav {
+    font-family: "Creepster";
+}
+
+  
+  ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    margin: 2rem;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  li {
+    list-style-type: none;
+    font-size: 3rem;
+    text-shadow: -2px -2px 5px black ,
+    3px 3px 5px red;
+  }
+  
+  a {
+    text-decoration: none;
+    color: red;
+  }
+  
+ li:hover {
+    animation-duration: 3s;
+    transform: rotate(180deg);
+    animation-delay: 4s;
+ }
+
+  p {
+    margin: 0 20px;
+    padding: 0 20px;
+    font-size: 2rem;
+    color: red;
+  }
+
+  div {
+    margin: 10px;
+  }
+
+  h2 {
+    border: 2px solid red;
+    padding: 10px;
+  }
+
