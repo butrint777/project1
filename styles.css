@@ -53,7 +53,7 @@ main {
   align-items: center;
   height: 85vh;
   width: 100vw;
-  background-image: url(/images/tumblr_d7387c137196e94c7f289ceb148a3627_ce4fe7d7_540.gif);
+  background: url(/images/tumblr_d7387c137196e94c7f289ceb148a3627_ce4fe7d7_540.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 70em;
@@ -127,13 +127,14 @@ p {
     animation-delay: 10s;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
     li {
         font-size: 2rem;
     }
-    a {
-        color: white;
-    }
+   
+   a {
+    color: white;
+   }
 
     h1 {
         color:white;
@@ -144,7 +145,12 @@ p {
     }
 
 
-    h1:hover {
+    a:hover {
+      background-color:red;
+    }
+
+
+         h1:hover {
         background-color: red;
         color: white;
         transition-duration: 5s;
@@ -156,4 +162,20 @@ p {
         }
 
 
+}
+
+
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .foot img {
+    width: 400px;
+  }
 }
