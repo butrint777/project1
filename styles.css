@@ -88,10 +88,12 @@ h2 {
 }
 
 h2:hover {
-color: red;
-background-color: black;   
-margin: 0 300px; 
+color:black;
+text-shadow: -2px -2px 4px red;
+font-size: 3rem;
+transition-duration: 2s;
 }
+
 
 footer {
   margin-top: 3rem;
