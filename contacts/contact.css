@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url(/images/1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-top: 5rem;
+    border: 5px solid red;
+    font-weight:bold;
+    margin: 0 300px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    animation: animate 2.5s infinite linear;
+}
+
+ul li:nth-of-type(1) {
+    animation-delay: 0s;
+}
+
+ul li:nth-of-type(2) {
+    animation-delay: .2s;
+}
+
+ul li:nth-of-type(3) {
+    animation-delay: .4s;
+}
+
+ul li:nth-of-type(4) {
+    animation-delay: .6s;
+}
+
+ul li:nth-of-type(5) {
+    animation-delay: .8s;
+}
+
+ul li:nth-of-type(6) {
+    animation-delay: 1s;
+}
+
+ul li:nth-of-type(7) {
+    animation-delay: 1.2s;
+}
+
+
+
+@keyframes animate {
+    0% {
+        filter: blur(0px);
+    }
+
+    50% {
+        filter: blur(0px);
+    }
+
+    100% {
+        filter: blur(40px);
+        text-shadow: -5px -5px 15px black;
+    }
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;   
+}
+
+textarea {
+    color: red;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    opacity: 80%;
+}
+
+ a {
+    font-family: "Creepster";
+ }
+
+ nav {
+    margin: 10px;
+    background-color: black;
+    opacity:70%;
+ }
+
+ nav a:hover {
+    background-color: red;
+    transform: translateX(100px);
+    transition-duration: 2s;
+    text-shadow: -5px -5px 3px black;
+ }
+
+
+
+
+
+  
+  p {
+    text-align: center;
+    font-size: 5rem;
+  }
+  
+  .footer {
+    color: red;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    margin: 30px;
+    font-family: 'Creepster';
+    text-shadow: -1px -2px 2px red;
+    background-color: black;
+    opacity: 70%;
+  }
+  
+ 
+  
+
+  

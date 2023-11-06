@@ -89,7 +89,8 @@ h2 {
 
 h2:hover {
 color: red;
-background-color: black;    
+background-color: black;   
+margin: 0 300px; 
 }
 
 footer {
