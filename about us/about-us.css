@@ -19,6 +19,7 @@
 
   
   ul {
+   
     display: flex;
     gap: 2rem;
     justify-content: space-around;
@@ -29,6 +30,7 @@
   }
   
   li {
+    
     list-style-type: none;
     font-size: 3rem;
     text-shadow: -2px -2px 5px black ,
