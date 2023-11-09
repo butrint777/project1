@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(/images/1.jpg);
+    background-image: url(../images/1.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,16 +26,15 @@ ul {
     display: flex;
     justify-content: center;
     color: red;
-    text-shadow: -3px -3px 4px black;
+    text-shadow: -4px -3px 4px black;
     margin-top: 5rem;
     font-weight:bold;
-    margin: 0 300px;
 }
 
 ul li {
     list-style: none;
     display: inline-block;
-    font-size: 60px;
+    font-size: 70px;
     text-transform: uppercase;
     margin: 0 10px;
     animation: animate 2.5s infinite linear;
@@ -120,9 +119,6 @@ textarea {
 
 
 
-
-
-  
   p {
     text-align: center;
     font-size: 5rem;
@@ -165,11 +161,10 @@ textarea {
         height: 30vh;
     }
 
-    body {
-        background-color: black;
-        
-    }
-
+  
+ body {
+    object-fit: contain;
+ }
  
    a {
     color: red;
