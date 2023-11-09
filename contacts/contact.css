@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("/images/1.jpg");
+    background-image: url(/images/1.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -165,6 +165,7 @@ textarea {
 
     body {
         background-color: black;
+        
     }
 
  
