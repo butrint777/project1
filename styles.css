@@ -62,17 +62,17 @@ main {
 
 
 h1 {
-  color: red;
+  color:red;
   font-size: 3.5rem;
 }
 
 h1:hover {
-    background-color: red;
-    color: white;
+    color: red;
     transition-duration: 5s;
     /* transform: rotate(-360deg); */
     transform: scale(1.4) translateY(-0.65em);
     animation-delay: 7s;
+    font-size: 5;
     }
 
 
@@ -126,7 +126,7 @@ p {
 .foot img:hover {
     transition-duration: 8s;
     /* transform: rotate(-360deg); */
-    transform: scale(1.1);
+    transform: scale(1.05);
     animation-delay: 10s;
 }
 

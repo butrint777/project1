@@ -26,6 +26,7 @@ ul {
     display: flex;
     justify-content: center;
     color: red;
+    text-shadow: -3px -3px 4px black;
     margin-top: 5rem;
     font-weight:bold;
     margin: 0 300px;
@@ -80,7 +81,7 @@ ul li:nth-of-type(7) {
     }
 
     100% {
-        filter: blur(40px);
+        filter: blur(50px);
         text-shadow: -5px -5px 15px black;
     }
 }
@@ -155,7 +156,8 @@ textarea {
     }
 
     ul li {
-       font-size: 3rem; 
+       font-size: 2rem;
+     
     }
     
     textarea{
