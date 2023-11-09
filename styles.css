@@ -73,6 +73,7 @@ h1:hover {
     transform: scale(1.4) translateY(-0.65em);
     animation-delay: 7s;
     font-size: 5;
+    text-shadow: -3px 0 4px rgba(255, 255, 255, 0.815);
     }
 
 
@@ -91,7 +92,7 @@ h2:hover {
 color:black;
 text-shadow: -2px -2px 4px red;
 font-size: 3rem;
-transition-duration: 2s;
+transition-duration: 3s;
 }
 
 
@@ -165,6 +166,13 @@ p {
         }
 
 
+        h2:hover {
+          color:black;
+          text-shadow: -2px -2px 4px red;
+          font-size: 1.6rem;
+          transition-duration: 3s;
+          }
+
 }
 
 
@@ -175,10 +183,13 @@ p {
   }
 
   h2 {
-    font-size: 1rem;
+    font-size: 10px;
   }
+
+
 
   .foot img {
     width: 400px;
   }
+  
 }
