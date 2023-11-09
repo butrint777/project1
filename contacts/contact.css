@@ -15,6 +15,13 @@ body {
     background-color: black;
 }
 
+
+h1 a {
+    color: red;
+    text-decoration: none;
+}
+
+
 ul {
     display: flex;
     justify-content: center;
@@ -154,14 +161,23 @@ textarea {
     
     textarea{
         width: 40vw;
-        height: 40vh;
+        height: 30vh;
     }
 
     body {
         background-color: black;
     }
 
-    h1 {
-        font-size: 2rem;
+ 
+   a {
+    color: red;
+    text-decoration: none;
+   }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
