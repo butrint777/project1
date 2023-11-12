@@ -64,11 +64,11 @@
   :root {
     font-size: 62.5%;
     background-color: black;
-    background-image: linear-gradient(to bottom, rgba(130, 12, 12, 0.8) 2%, rgba(202, 10, 10, 0.5) 95%, rgba(0,0,0,0.2) 100%),url(../images/photo-15.avif);
+    background-image: linear-gradient(to bottom, rgba(130, 12, 12, 0.8) 2%, rgba(202, 10, 10, 0.5) 95%, rgba(124, 10, 10, 0.2) 100%),url(../images/photo-15.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 
   }
 
@@ -128,13 +128,13 @@ nav {
 
     li {
         font-size: 4rem;
-        box-shadow: 3px 3px 5px black , -3px -3px 5px black ;
     }
      ul{
         font-size: 2.4rem;
         display: flex;
         align-items: center;
-        flex-direction: column
+        flex-direction: column;
+        gap: 5.5rem;
     }
 
     .slider-wrapper {

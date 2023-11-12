@@ -110,6 +110,13 @@ p {
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 1rem;
+  
+}
+
+.icons {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
 }
 
 .foot {
@@ -118,6 +125,8 @@ p {
     align-items: center;
     margin: 30px;
 }
+
+
 
 .foot img {
     width: 40%;

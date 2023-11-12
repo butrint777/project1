@@ -28,6 +28,8 @@ header {
 
   nav {
     font-family: "Creepster";
+    background-color: rgba(0, 0, 0, 0.766);
+    margin: 0 3rem;
     
 }
 
@@ -36,8 +38,7 @@ header {
     display: flex;
     gap: 2rem;
     justify-content: space-around;
-    margin: 2rem;
-    border: 2px solid red;
+    border: 1px solid rgb(255, 0, 0);
     border-radius: 15px;
     padding: 10px;
   }
@@ -102,8 +103,8 @@ main {
 }
 
 .container img {
-  height: 100vh;
-  width: 50vw;
+  height: 70vh;
+  width: 40vw;
   margin: 50px;
 }
 
@@ -133,8 +134,7 @@ td {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: underline rgba(255, 0, 0, 0.782) 2px;
-  
+text-shadow: -3px -2px 3px red;  
 }
 
 p {
@@ -176,6 +176,7 @@ p {
 
 h2 {
   margin-top: 20px;
+  font-size: 6rem;
 }
 
 h3 {
@@ -192,15 +193,19 @@ ul  {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 3.1rem;
+  border: none;
+  padding: 1rem;
+  
 }
 
 li {
-  font-size: 1rem;
+  font-size: 1.6rem;
   border: none;
 }
 
 iframe {
-  width: 40vh;
+  width: 38vh;
 }
 
 }
