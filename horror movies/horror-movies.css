@@ -81,7 +81,6 @@ header {
 h1:hover {
     box-shadow: -3px -3px 5px red;
     text-shadow: -5px -5px 3px black;
-    padding: 10px;
 }
 
 
