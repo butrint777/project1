@@ -89,7 +89,7 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 80px;   
+    margin: 30px;   
 }
 
 textarea {
@@ -98,6 +98,7 @@ textarea {
     text-align: center;
     font-size: 2rem;
     opacity: 80%;
+    
 }
 
 
