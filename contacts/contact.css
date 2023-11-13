@@ -89,7 +89,7 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 80px;   
 }
 
 textarea {
@@ -100,10 +100,6 @@ textarea {
     opacity: 80%;
 }
 
-
-.button {
-
-}
 
  a {
     font-family: "Creepster";
